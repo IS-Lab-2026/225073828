@@ -10,3 +10,14 @@ Problem 1 - Bicycle Rental
 
 - BLOCK5 : Displays the starting time, ending time, and total rental cost in RWF. Finally, it closes the "Scanner" object.
   
+Problem 2 - Mushroom Identifier
+
+- BLOCK1 : Imports the "Scanner" class and initializes the Scanner object to read keyboard input. Displays the first question asking whether the mushroom has gills and stores the user's answer in the "gills" variable.
+
+- BLOCK2 : Checks whether the mushroom has gills. If the answer is "no", the program identifies the mushroom as Cepe de Bordeaux. Otherwise, it proceeds to ask whether the mushroom grows in a forest.
+
+- BLOCK3 : Checks whether the mushroom grows in a forest. If the answer is "no", the program asks whether the mushroom has a convex cup. If the answer is "yes", it identifies the mushroom as Agaric jaunissant; otherwise, it identifies it as Coprin chevelu.
+
+- BLOCK4 : If the mushroom grows in a forest, the program asks whether it has a ring. If the answer is "no", the mushroom is identified as Girolle. Otherwise, the program displays that it may be either Amanite tue-mouche or Pied bleu.
+
+- BLOCK5 : Closes the conditional statements and the Scanner object using "input.close()" to finish the program.
